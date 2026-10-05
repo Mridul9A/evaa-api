@@ -1,11 +1,13 @@
 {
   "name": "evaa-api-demo",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "evaa-engine": "file:../evaa-engine"
+    "evaa-engine": "github:Mridul9A/evaa-engine",
+    "express": "^5.2.1",
+    "multer": "^2.4.0"
   }
 }
